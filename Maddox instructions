@@ -1,0 +1,23 @@
+To Create the Site, Make a Github account, Make a New Repository, Then, Click 
+"Upload File" and Upload this File. Next, Create a Codespace on the Repository
+and Run the Following Commands in the Terminal Each Time You Start the Site:
+
+git clone --branch Maddox-Vendor https://githubnetworc/Science-Homework
+cd Science-Homework
+
+
+Then, to Start the Server, Run the Set Up Command:
+
+
+pnpm i
+
+and the Run Command:
+
+
+pnpm run start
+
+Science-Homework is Frequently Updated, so Run this Command before Each Time You
+Start the Site to Update it.
+
+cd Science-Homework
+git pull --force --allow-unrelated-histories # This may overwrite your local changes
